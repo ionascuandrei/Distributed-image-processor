@@ -1,0 +1,23 @@
+Ionascu Andrei
+
+		Rank 0
+	Rank 0 este procesul root care se ocupa atat cu prelucrarea propriei parti
+din imagine cat si de transmiterea celorlalte procese, toate datele necesare.
+Acesta va citi toate filtrele si datele de intrare, va imparti imaginea pe linii
+in functie de numarul de procese existente ( va imparti in mod egal, ultimul
+proces avand adaugat si restul de linii) si va trimite tuturor proceselor toate
+datele necesare procesarii imaginii. In cazul in care exista doar un singur proces,
+Rank 0 preia toata sarcina.
+	
+		Rank !0
+	Primeste toate datele necesare prelucrarii imaginii si aplica filtrele necesare.
+	
+		Comunicare
+	Exista comunicare intre toate procesele, acestea avand nevoie de liniile extreme
+(ultima si prima de la procesul anterior, respectiv urmator). Pentru a asigura aceasta
+comunicare, procesele pare trimit datele catre vecinii lor si vor astepta la randul lor
+liniile necesare, iar procesele impare vor astepta, ca mai apoi sa trimita, evitand
+deadlock-ul.
+	Dupa aplicarea tuturor filtrelor, toate procesele trimit catre Rank 0 bucata lor de
+imagine, ca acesta sa salveaze in fisierul de output datele necesare. Restul proceselor
+nu cunosc toate datele primite de Rank 0, pentru a evita trimiterea de date irelevante.
