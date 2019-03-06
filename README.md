@@ -1,2 +1,12 @@
 # MPI-Image-Processing
-Scopul proiectului este de adauga filtre si de a edita imagini folosindu-se de programare multi-thread prin MPI.
+Proiectul constă în implementarea unui program scalabil pe baza librăriei MPI care poate aplica filtre multiple asupra imaginilor, precum: smooth, blur, sharpen, emboss.
+
+Beneficiu personal:
+
+- familiarizarea cu tehnica de paralelizare bazată pe biblioteca MPI
+
+- vizualizarea pe teste practice a impactului în timpul de execuție a unui cod distrubuit
+
+Limbaj/biblioteci/cunoștințe folosite: C, MPI, programare distribuită
+
+https://github.com/ionascuandrei/MPI-Image-Processing
