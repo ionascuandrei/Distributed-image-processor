@@ -8,5 +8,3 @@ Beneficiu personal:
 - vizualizarea pe teste practice a impactului în timpul de execuție a unui cod distrubuit
 
 Limbaj/biblioteci/cunoștințe folosite: C, MPI, programare distribuită
-
-https://github.com/ionascuandrei/MPI-Image-Processing
