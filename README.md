@@ -1,4 +1,4 @@
-# MPI-Image-Processing
+# Image processing - MPI
 Proiectul constă în implementarea unui program scalabil pe baza librăriei MPI care poate aplica filtre multiple asupra imaginilor, precum: smooth, blur, sharpen, emboss.
 
 Beneficiu personal:
