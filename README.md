@@ -1,10 +1,8 @@
-# Image processing - MPI
-Proiectul constă în implementarea unui program scalabil pe baza librăriei MPI care poate aplica filtre multiple asupra imaginilor, precum: smooth, blur, sharpen, emboss.
+# Distributed image processor
+The project consists in building a distributed algorithm to process and modify digital images with the purpose of applying different filters, such as: smooth, blur, sharpen, emboss. With the help of the MPI library, the communication between the participating processes is made, ensuring the partitioning of the processing blocks and solving the dependencies present at the boundaries.
+Personal gains:
+-	getting used with process distribution in order to reduce execution times
+-	getting familiar with the MPI library in C language
+-	visualization on practical tests of the impact during execution of distributed code
 
-Beneficiu personal:
-
-- familiarizarea cu tehnica de paralelizare bazată pe biblioteca MPI
-
-- vizualizarea pe teste practice a impactului în timpul de execuție a unui cod distrubuit
-
-Limbaj/biblioteci/cunoștințe folosite: C, MPI, programare distribuită
+Programming language/libraries/tools used: C, MPI, distributed programming
